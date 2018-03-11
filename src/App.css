@@ -60,14 +60,6 @@ element-color {
   outline:none;
 }
 
-.SelectionButton :hover {
-  background-color: #BDBDBD;
-}
-
-.SelectionButton :active {
-  background-color: #828282;
-}
-
 .SmallSelectionButton {
   height: 24px;
   width: 24px;
@@ -77,14 +69,6 @@ element-color {
   cursor: pointer;
   overflow: hidden;
   outline:none;
-}
-
-.SmallSelectionButton :hover {
-  background-color: #BDBDBD;
-}
-
-.SmallSelectionButton :active {
-  background-color: #949494;
 }
 
 .NextButton {
@@ -98,20 +82,6 @@ element-color {
   cursor: pointer;
   overflow: hidden;
   outline:none;
-}
-
-.NextButton :hover {
-  height: 54px;
-  width: 185px;
-  border-radius: 40px;
-  background-color: #55BFE0;
-}
-
-.NextButton :active {
-  height: 54px;
-  width: 185px;
-  border-radius: 40px;
-  background-color: #4AB2D4;
 }
 
 @keyframes App-logo-spin {

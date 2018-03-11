@@ -90,7 +90,7 @@ class App extends Component {
           </div>
         </div>
         <button className="NextButton" onClick={this.nextTurn}>
-          <div style={{paddingTop:"15px", marginLeft:"-5px", width:"185px", height:"54px"}}>Next Turn</div>
+          <div>Next Turn</div>
         </button>
       </div>
     );
