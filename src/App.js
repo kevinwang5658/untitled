@@ -68,7 +68,7 @@ class App extends Component {
           </div>
         </div>
         <div style={{width:"200px", height:"20px", float:"left", marginTop:"10px"}}>
-          <div style={{float:"left", display:"inline-block"}}>Users:</div>
+          <div style={{float:"left", display:"inline-block"}}>Players:</div>
           <div style={{float:"right", width:"100px", display:"flex", flexDirection:"row", alignItems:"stretch", justifyContent:"space-between"}}>
             <button className="SmallSelectionButton" onClick={()=>this.setState({users:this.state.users > 0 ? this.state.users - 1 : 0})}><img style={SmallImageStyle} src={removeGray}/></button>
             <div>{this.state.users}</div>
