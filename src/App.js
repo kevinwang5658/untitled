@@ -60,7 +60,7 @@ class App extends Component {
     this.setState({
       addicts: this.state.addicts + addictsToAdd,
       users: this.state.users + this.state.upt - addictsToAdd,
-      money: this.state.money + this.state.mpt * (this.state.users - addictsToAdd) + this.state.mpa * (this.state.addicts + addictsToAdd),
+      money: this.state.money + this.state.mpt * (this.state.users + this.state.upt - addictsToAdd) + this.state.mpa * (this.state.addicts + addictsToAdd),
     });
   }
 
