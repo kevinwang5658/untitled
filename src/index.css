@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: aqua;
+  background-color: #DBDBDB;
   font-family: Helvetica Neue, sans-serif;
   font-weight: 500;
+  touch-action: manipulation;
 }
