@@ -58,9 +58,9 @@ class App extends Component {
     let addictsToAdd = this.state.users + this.state.upt < this.state.apt ? this.state.users + this.state.upt : this.state.apt;
 
     this.setState({
-      money: this.state.money + this.state.mpt * this.state.users + this.state.mpa * this.state.addicts,
       addicts: this.state.addicts + addictsToAdd,
-      users: this.state.users + this.state.upt - addictsToAdd
+      users: this.state.users + this.state.upt - addictsToAdd,
+      money: this.state.money + this.state.mpt * (this.state.users - addictsToAdd) + this.state.mpa * (this.state.addicts + addictsToAdd),
     });
   }
 
